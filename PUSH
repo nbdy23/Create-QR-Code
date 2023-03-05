@@ -1,0 +1,23 @@
+## create qr code
+## public
+
+
+  ## START
+import qrcode
+  # Create The variable to store the information
+  # link = "https://bharath-k1297.medium.com/membership"
+  
+data = "Hello! Welcome To World Of Programming!"
+  # Encode The Link
+  
+img = qrcode.make(data)
+print(type(img))
+
+  # Save the QR Code
+img.save("test1.jpg")
+
+  # following line= FINISHED QR
+<class 'qrcode.image.pil.PilImage'>
+
+
+## TEST SCAN
