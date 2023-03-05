@@ -1,0 +1,12 @@
+# create a GENERAL FREE wifi QR code to connect by
+# The S sets the SSID of the network, T defines the security in use
+# P is the password and H whether the network is hidden or not
+# You can create this directly by making a text QR code or use a specialized QR code generator for WiFi networks
+# strictly used for free wifi connections only
+
+#START
+WIFI:S:<SSID>;T:<WEP|WPA|blank>;P:<PASSWORD>;H:<true|false|blank>;;
+
+
+# scan qr code
+# accept network connection
