@@ -1,0 +1,17 @@
+## STARTING POINT
+## INSTALL NEED PY.LIBRARIES
+## SCANNABLE QR CODES
+
+
+## install libraries
+
+
+  ## START
+  # step 1
+pip install qrcode
+
+  #step 2
+pip install qrcode[pil]
+
+  #step 3
+pip install opencv-python 
